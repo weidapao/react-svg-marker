@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .container{
     position: relative;
     border: 1px solid red;
@@ -8,8 +11,6 @@
       z-index: 2;
     }
     img{
-      position:absolute;
-      z-index: -1;
       width: auto;
       height: auto;
       max-width: 100%;
