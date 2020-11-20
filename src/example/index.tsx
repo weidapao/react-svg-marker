@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import imgUrl from '../../src/assets/images/testImg.png'
 import { MarkData, RefObject, MarkType } from '../type'
-import LabelPanel from '../App'
+import LabelPanel from '../index'
 const Demo = () => {
   // {
   //   type: 'polyline',
