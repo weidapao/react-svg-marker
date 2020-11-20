@@ -1,6 +1,12 @@
 {
-  "name": "weather",
-  "version": "0.1.0",
+  "name": "react-svg-marker",
+  "version": "1.0.0",
+  "author": "weizy",
+  "main": "lib/index.js",
+  "type": "lib/@index.d.ts",
+  "files": [
+    "lib"
+  ],
   "private": true,
   "homepage": "https://weidapao.github.io/react-svg-marker",
   "dependencies": {
@@ -99,7 +105,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://apis.juhe.cn",
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -158,6 +163,17 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^1.4.14",
+    "rollup-plugin-filesize": "^9.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-visualizer": "^4.2.0",
+    "tslib": "^2.0.3"
   }
 }

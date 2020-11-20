@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useReducer, useImperativeHandle } from 'react'
 import labelReducer from './reducer'
-import { Point, MarkData, RefObject, ActionState,Drawfn } from './type'
+import { Point, MarkData, RefObject, ActionState, Drawfn } from './type'
 import { getPoint, transformPoint, getArrowPoint } from './utils'
 import './App.scss'
 
