@@ -9,6 +9,10 @@
   ],
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weidapao/react-svg-marker"
+  },
   "homepage": "https://weidapao.github.io/react-svg-marker",
   "dependencies": {},
   "scripts": {

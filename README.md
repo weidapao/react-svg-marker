@@ -37,8 +37,11 @@ const drawShap = (shapType, color) => {
 ```
 
 ## Options and Defaults
+
 shapType: 'polyline' | 'polygon' | 'arrow'
+
 Point : { x: number; y: number }
+
 data: {
   type: shapType
   point: Point[]
@@ -46,6 +49,9 @@ data: {
   selected: boolean
   end: boolean
 }
+
 imgUrl: string
+
 width?: number
+
 height?: number
