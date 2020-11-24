@@ -7,6 +7,7 @@
   "files": [
     "lib"
   ],
+  "license": "MIT",
   "private": false,
   "homepage": "https://weidapao.github.io/react-svg-marker",
   "dependencies": {},
